@@ -1,12 +1,14 @@
 import React from 'react';
-import './App.css';
+import Heading from './components/Heading';
+import MainJobsBoard from './components/MainJobsBoard';
 
-function App () {
+const App = () => {
   return (
     <div>
-      Hello
+      <Heading />
+      <MainJobsBoard />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,166 @@
+body {
+  background-color: #f0f9fa;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+  width: 80%;
+}
+
+.top-background {
+  height: 155px;
+  background-image: url('../images/bg-header-desktop.svg');
+  background-color: #5da4a4;
+  margin-bottom: 70px;
+}
+
+.item {
+  margin: 0 0 15px 0;
+  padding: 35px 0;
+  background-color: white;
+  border-radius: 5px;
+  border-left: 5px solid white;
+}
+
+.item-featured {
+  border-left: 10px solid #5aa4a3;
+}
+
+.image {
+  margin: auto;
+}
+
+.company-logo {
+  width: 85px;
+}
+
+.item-top-row {
+  height: 30px;
+}
+
+.company {
+  color: #5da4a4;
+  font-size: 1.2rem;
+  margin: auto 10px auto auto;
+}
+
+.new-carat {
+  background-color: #5da4a4;
+
+  color: white;
+  margin: 0 3px;
+  border-radius: 30px;
+}
+
+.featured-carat {
+  background-color: #2b3537;
+  color: white;
+  margin: 0 3px;
+  border-radius: 20px;
+}
+
+.carat-text {
+  padding: 3px;
+  font-size: 0.9rem;
+  margin: 5px;
+}
+
+.item-middle-row {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.job-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.03rem;
+  margin-bottom: 0;
+}
+
+.item-bottom-row {
+  width: 100%;
+}
+
+.bullet {
+  list-style-type: none;
+  color: black;
+  font-size: 1.2rem;
+  margin: auto 10px;
+}
+
+hr {
+  display: none;
+}
+
+.skills {
+  float: right;
+  padding-right: 10px;
+}
+
+.skill-bullet {
+  list-style-type: none;
+  color: white;
+  letter-spacing: 0.02rem;
+  margin: 10px 7px;
+}
+
+.skill-text {
+  background-color: black;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .top-background {
+    background-image: url('../images/bg-header-mobile.svg');
+    margin-bottom: 60px;
+  }
+
+  .container-fluid {
+    padding: 0;
+    width: 85%;
+  }
+
+  .image {
+    text-align: left;
+    margin-top: -35px;
+    padding-left: 0;
+  }
+
+  .company-logo {
+    width: 50px;
+  }
+
+  .item {
+    margin: 0 0 30px 0;
+    padding: 10px 0 10px 20px;
+    width: 80%;
+  }
+
+  .item-top-row {
+    margin-top: 5px;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #b6b6b6;
+    width: 100%;
+    display: block;
+  }
+
+  .skills-section {
+    padding: 0;
+  }
+
+  .skills {
+    float: left;
+    display: inline-block;
+  }
+
+  .skill-bullet {
+    margin: 10px 14px 10px 0px;
+  }
+}
