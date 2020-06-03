@@ -26,6 +26,7 @@ body {
 .item-featured {
   border-left: 10px solid #5aa4a3;
 }
+ 
 
 .image {
   margin: auto;
@@ -55,8 +56,7 @@ body {
 
 .featured-carat {
   background-color: #2b3537;
-  color: white;
-  margin: 0 3px;
+  color: white; 
   border-radius: 20px;
 }
 
@@ -106,12 +106,71 @@ hr {
 }
 
 .skill-text {
-  background-color: black;
+  background-color: #5da4a4;
+  color: white; 
   padding: 5px;
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 700;
 }
+
+.filter {
+  padding: 15px;
+  height: 70px;
+  width: 70%;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 1;
+  margin: auto;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 120px;
+}
+.clear {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;  
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: #677570; 
+  padding: 0;
+  margin: 0;
+}
+
+.filter-items {
+  height: 100%;
+}
+
+.filter-bullet {
+  list-style-type: none;
+  color: #5da4a4;
+  letter-spacing: 0.02rem;
+  margin: auto 7px;
+  font-weight: 500;
+  background-color: #f0f9fa;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.filter-text {
+  padding: 8px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.remove {
+  background-color: #5da4a4;
+  color: white;
+  border: 0;
+  height: 100%;
+  margin-left: -5px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-size: 1.25rem;
+}
+
+
 
 @media (max-width: 760px) {
   .top-background {
