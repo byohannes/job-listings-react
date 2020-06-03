@@ -225,9 +225,11 @@ hr {
     padding: 0;
   }
 
-  .skills {
-    float: left;
+  .skills { 
     display: inline-block;
+  }
+  .footer{
+    font-size: 1rem;
   }
 
   .skill-bullet {
