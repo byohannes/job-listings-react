@@ -1,6 +1,6 @@
 import React from 'react';
 
-function JobBoard({data, addTag, tagList}) {
+const JobBoard = ({data, addTag, tagList}) => {
   return (
     <div className={'row item ' + (data.featured === true && 'item-featured')}>
       <div className="col-md-2 image">
@@ -44,12 +44,7 @@ function JobBoard({data, addTag, tagList}) {
           <ul className="list-group list-group-horizontal flex-wrap skills-list">
             {tagList.map ((tag, index) => (
               <li key={index} className="skill-bullet">
-                <span
-                  className="skill-text"
-                  onClick={() =>  
-                    addTag (tag)
-                   }
-                >
+                <span className="skill-text" onClick={() => addTag (tag)}>
                   {tag}
                 </span>
               </li>
@@ -59,6 +54,6 @@ function JobBoard({data, addTag, tagList}) {
       </div>
     </div>
   );
-}
+};
 
 export default JobBoard;

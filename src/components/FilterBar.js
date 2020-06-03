@@ -5,8 +5,8 @@ const FilterBar = ({filters, clearFilters, removeFilter}) => {
     <div className="row filter">
       <div className="col-sm-auto">
         <ul className="list-group list-group-horizontal flex-wrap filter-items">
-          {filters.map ((filter,index) => (
-            <li className="filter-bullet" key ={index}>
+          {filters.map ((filter, index) => (
+            <li className="filter-bullet" key={index}>
               <span className="filter-text">{filter}</span>
               <button
                 type="button"
