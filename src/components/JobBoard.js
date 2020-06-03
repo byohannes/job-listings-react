@@ -46,10 +46,9 @@ function JobBoard({data, addTag, tagList}) {
               <li key={index} className="skill-bullet">
                 <span
                   className="skill-text"
-                  onClick={() => {
-                    console.log ('hello');
-                    addTag (tag);
-                  }}
+                  onClick={() =>  
+                    addTag (tag)
+                   }
                 >
                   {tag}
                 </span>
