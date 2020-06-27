@@ -25,13 +25,16 @@ const MainContent = () => {
   const clearFilters = () => {
     setFilters ([]);
   };
+  
   return (
     <div>
-       <FilterBar
-        filters={filters}
-        clearFilters={clearFilters}
-        removeFilter={removeTagFromFilter}
-      /> 
+
+      {filters.length>0 &&
+        <FilterBar
+          filters={filters}
+          clearFilters={clearFilters}
+          removeFilter={removeTagFromFilter}
+        />}
       <div className="container-fluid">
         {listings.map (data => {
           const languages = data.languages || [];
