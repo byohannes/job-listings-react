@@ -27,11 +27,11 @@ const MainContent = () => {
   };
   return (
     <div>
-      <FilterBar
+       <FilterBar
         filters={filters}
         clearFilters={clearFilters}
         removeFilter={removeTagFromFilter}
-      />
+      /> 
       <div className="container-fluid">
         {listings.map (data => {
           const languages = data.languages || [];

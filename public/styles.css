@@ -26,7 +26,6 @@ body {
 .item-featured {
   border-left: 10px solid #5aa4a3;
 }
- 
 
 .image {
   margin: auto;
@@ -56,7 +55,7 @@ body {
 
 .featured-carat {
   background-color: #2b3537;
-  color: white; 
+  color: white;
   border-radius: 20px;
 }
 
@@ -76,6 +75,10 @@ body {
   font-size: 1.2rem;
   letter-spacing: 0.03rem;
   margin-bottom: 0;
+}
+
+.job-title:hover {
+  color: #5da4a4;
 }
 
 .item-bottom-row {
@@ -106,12 +109,16 @@ hr {
 }
 
 .skill-text {
-  background-color: #5da4a4;
-  color: white; 
+  background-color: #f0f9fa;
+  color: #5da4a4;
   padding: 5px;
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 700;
+}
+.skill-text:hover {
+  background-color: #5da4a4;
+  color: white;
 }
 
 .filter {
@@ -120,7 +127,7 @@ hr {
   width: 83%;
   background-color: white;
   border-radius: 5px;
-  z-index: 1; 
+  z-index: 1;
   margin-left: 9rem;
   margin-bottom: 20px;
   position: absolute;
@@ -130,10 +137,10 @@ hr {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 30px;  
+  right: 30px;
   font-size: 1rem !important;
   font-weight: 700 !important;
-  color: #677570; 
+  color: #677570;
   padding: 0;
   margin: 0;
 }
@@ -169,6 +176,12 @@ hr {
   border-bottom-right-radius: 4px;
   font-size: 1.25rem;
 }
+
+.remove:hover {
+  background-color: black;
+  color: white;
+}
+
 .footer {
   font-size: 1.5rem;
   text-align: center;
@@ -177,7 +190,6 @@ hr {
 .footer a {
   color: hsl(228, 45%, 44%);
 }
-
 
 @media (max-width: 760px) {
   .top-background {
@@ -189,7 +201,7 @@ hr {
     padding: 0;
     width: 85%;
   }
-  .filter{
+  .filter {
     width: 90%;
     margin: auto;
   }
@@ -225,10 +237,10 @@ hr {
     padding: 0;
   }
 
-  .skills { 
+  .skills {
     display: inline-block;
   }
-  .footer{
+  .footer {
     font-size: 1rem;
   }
 
