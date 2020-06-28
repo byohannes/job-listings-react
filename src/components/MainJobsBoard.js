@@ -49,6 +49,7 @@ const MainContent = () => {
               key={data.id}
               addTag={addTagToFilter}
               tagList={tagList}
+              setListings={setListings}
             />
           );
         })}
